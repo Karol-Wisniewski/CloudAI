@@ -1,0 +1,8 @@
+@startuml
+class AzureTranslator {
+    String: translate(String input, String targetLang)
+}
+class AzureTranslatorTest
+
+AzureTranslator -- AzureTranslatorTest
+@enduml
